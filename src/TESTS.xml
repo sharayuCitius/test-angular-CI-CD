@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Windows 8.0.0)" package="" timestamp="2018-09-03T06:25:55" id="0" hostname="SharayuS-MSD" tests="3" errors="0" failures="1" time="0.708">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.308" classname="AppComponent"/>
+  <testcase name="AppComponent should have as title 'app'" time="0.209" classname="AppComponent"/>
+  <testcase name="AppComponent should render title in a h1 tag" time="0.191" classname="AppComponent">
+    <failure type="">Expected ' Welcome to app! ' to contain 'Welcome to test-angular!'.
+http://localhost:9876/_karma_webpack_/main.js:254:67
+invoke@http://localhost:9876/_karma_webpack_/vendor.js:74421:31
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:73156:45
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:72728:47
+invoke@http://localhost:9876/_karma_webpack_/vendor.js:74420:40
+runGuarded@http://localhost:9876/_karma_webpack_/vendor.js:74184:53
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:73284:39
+http://localhost:9876/_karma_webpack_/vendor.js:73218:30
+invoke@http://localhost:9876/_karma_webpack_/vendor.js:74421:31
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:72731:45
+invoke@http://localhost:9876/_karma_webpack_/vendor.js:74420:40
+run@http://localhost:9876/_karma_webpack_/vendor.js:74171:49
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:72949:37
+http://localhost:9876/_karma_webpack_/vendor.js:72965:33
+http://localhost:9876/_karma_webpack_/vendor.js:73268:35
+invoke@http://localhost:9876/_karma_webpack_/vendor.js:74421:31
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:72731:45
+invoke@http://localhost:9876/_karma_webpack_/vendor.js:74420:40
+run@http://localhost:9876/_karma_webpack_/vendor.js:74171:49
+http://localhost:9876/_karma_webpack_/vendor.js:73267:32
+http://localhost:9876/_karma_webpack_/vendor.js:73099:45
+invokeTask@http://localhost:9876/_karma_webpack_/vendor.js:74454:36
+runTask@http://localhost:9876/_karma_webpack_/vendor.js:74221:57
+invokeTask@http://localhost:9876/_karma_webpack_/vendor.js:74529:41
+invoke@http://localhost:9876/_karma_webpack_/vendor.js:74518:52
+timer@http://localhost:9876/_karma_webpack_/vendor.js:76087:34
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
